@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Expenses chart component</title>
+  </head>
+  <body>
+    <main>
+      <section class="balance">
+        <div class="balance-text">
+          <p class="balance-mine">My balance</p>
+          <p class="balance-amount">$921.48</p>
+        </div>
+        <svg
+          width="72"
+          height="48"
+          viewBox="0 0 72 48"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g fill="none" fill-rule="evenodd">
+            <circle fill="#382314" cx="48" cy="24" r="24" />
+            <circle stroke="#FFF" stroke-width="2" cx="24" cy="24" r="23" />
+          </g>
+        </svg>
+      </section>
+
+      <section class="spending">
+        <h1>Spending - Last 7 days</h1>
+        <div class="chart">
+          <!-- MONDAY -->
+          <div class="chart-item">
+            <div class="chart-amount"></div>
+            <div class="graph"></div>
+            <p class="gray chart-day">mon</p>
+          </div>
+
+          <!-- TUESDAY -->
+          <div class="chart-item">
+            <div class="chart-amount"></div>
+            <div class="graph"></div>
+            <p class="gray chart-day">tue</p>
+          </div>
+          <!-- WEDNESDAY -->
+          <div class="chart-item">
+            <div class="chart-amount"></div>
+            <div class="graph"></div>
+            <p class="gray chart-day">wed</p>
+          </div>
+          <!-- THURSDAY -->
+          <div class="chart-item">
+            <div class="chart-amount"></div>
+            <div class="graph"></div>
+            <p class="gray chart-day">thu</p>
+          </div>
+          <!-- FRIDAY -->
+          <div class="chart-item">
+            <div class="chart-amount"></div>
+            <div class="graph"></div>
+            <p class="gray chart-day">fri</p>
+          </div>
+          <!-- SATURDAY -->
+          <div class="chart-item">
+            <div class="chart-amount"></div>
+            <div class="graph"></div>
+            <p class="gray chart-day">sat</p>
+          </div>
+          <!-- SUNDAY -->
+          <div class="chart-item">
+            <div class="chart-amount"></div>
+            <div class="graph"></div>
+            <p class="gray chart-day">sun</p>
+          </div>
+        </div>
+        <hr />
+
+        <div class="final-balance">
+          <div class="spending-text">
+            <p class="gray">Total this month</p>
+            <p class="spending-amount">$478.33</p>
+          </div>
+          <div class="progress">
+            <h4>+2.4%</h4>
+            <p class="gray">from last month</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
