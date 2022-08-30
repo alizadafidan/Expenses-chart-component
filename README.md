@@ -5,7 +5,7 @@ Click the link: https://expenses-chart-component-pied.vercel.app/
 - View the bar chart and hover over the individual bars to see the correct amounts for each day
 - See the current day’s bar highlighted in a different colour to the other bars
 - See hover states for all interactive elements on the page
-Used the JSON data file provided to dynamically size the bars on the chart
+#### Used the JSON data file provided to dynamically size the bars on the chart
 
 ### Built with
 - JavaScript
